@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Login</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <script type="text/javascript">
+      function check()
+      {
+        alert('Check Your Email plz..!');
+      }
+  </script>
+  <body>
+    <h1>Forgot Password ?</h1>
+    
+    <form action="/forgot" method="post">
+        <table>
+            <tr>
+                <h3>Enter Email ID...!</h3>
+                <td>
+                    <input type="text" name="email" placeholder="username" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button value="otp" onclick="check();">OTP</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+  </body>
+</html>
